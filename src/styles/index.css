@@ -10,12 +10,26 @@ body {
   
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+header {
+  padding-bottom: 5vh;
 }
 
-h1,h2,h3 {
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+h2,h3 {
   font-weight: 300;
 }
 
@@ -24,6 +38,6 @@ button {
   font-size: 1em;
 }
 
-.personal-image {
-  width="100vh";
+.personalImage {
+  grid-column: 1/2;
 }
