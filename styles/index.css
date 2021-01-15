@@ -2,12 +2,17 @@
   box-sizing: border-box;
 }
 
-body { 
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 5px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  justify-content: space-evenly;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 112.5%;
   font-weight: 400;
   line-height: 1.5;
-  
 }
 
 header {
@@ -17,9 +22,20 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
-} 
+  margin: 0 0 30px 0;
+}
 
-h1, h2, h3 {
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+h1 {
   text-align: center;
   font-weight: 300;
 }
@@ -27,19 +43,37 @@ h1, h2, h3 {
 input,
 button {
   font-size: 1em;
-} 
+}
+
+address {
+  font-style: normal;
+  color: black;
+}
+
+.bodyHeading {
+  text-align: center;
+  font-weight: 300;
+  margin: 30px 0 10px 0;
+}
+
+.contactHeading {
+  text-align: center;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+}
 
 .openingSection {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6 1fr);
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
-  justify-items: center;
+  justify-content: start;
   align-items: start;
+  text-align: center;
 }
 
 .imageOpeningSection {
-  grid-row: span 5;
+  grid-row: span 6;
 }
 
 .personalImage {
@@ -47,10 +81,36 @@ button {
   height: auto;
 }
 
+.images {
+  max-width: 100%;
+  width: 40%;
+  height: auto;
+}
+
 .contactItems {
   grid-column: 2;
-  grid-row-start: 1 / 5;
   max-width: 100%;
-  height: auto;
+  height: 16.66%;
   padding: 5px;
+}
+
+.skillsAndInterests {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.skillsAndInterestsItems {
+  padding: 5px;
+  margin: 5px;
+  border-left: 1px solid black;
+  list-style-type: none;
+}
+
+.copyrightNotice {
+  margin: 50px 0 20px;
+  text-align: center;
 }
