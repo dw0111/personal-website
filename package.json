@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Man, I have no idea what I am doing here. First time using git, github and the command line, so basically just dicking around. Alright, this is starting to take shape. Here we go!",
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dw0111/personal-website.git"
+  },
+  "author": "Daniel Wiesner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dw0111/personal-website/issues"
+  },
+  "homepage": "https://github.com/dw0111/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
