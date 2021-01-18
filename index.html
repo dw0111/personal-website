@@ -19,92 +19,101 @@
 
     <main>
       <section class="opening">
-        <figure class="imageOpeningSection">
+        <figure class="opening__image">
           <img
             class="personalImage"
-            src="images/fire_website_oval.png"
+            src="images/fire_website.png"
             alt="Daniel Wiesner breathing fire"
           />
           <figcaption>I'm burning for coding!</figcaption>
         </figure>
 
-        <article>
-          Hi! I'm Daniel - Event Manager, aspiring Web Developer and general
+        <article class="opening__text">
+          Hi! I'm Daniel - Event Manager, aspiring Web Developer and
+          enthusiastic juggler. If you want to get to know me better have a look
+          at what I did, what I like and maybe even get in touch!
         </article>
+
+        <section class="contactSection padding">
+          <h2 class="heading">Contact</h2>
+
+          <address class="contactItems padding">
+            <a href="mailto:daniel_wiesner@provider.de" class="contact__images"
+              ><img class="images" src="images/email_icon.png" alt="eMail"
+            /></a>
+          </address>
+
+          <address class="contactItems padding">
+            <a href="tel:+49173123456"
+              ><img class="images" src="images/telephone_icon.png" alt="call"
+            /></a>
+          </address>
+
+          <section class="contactItems padding">
+            <a
+              href="https://www.linkedin.com/in/daniel-wiesner-0b100a201"
+              rel="noreferrer"
+              target="_blank"
+              ><img
+                class="images"
+                src="images/linkedin_icon.png"
+                alt="LinkedIn"
+            /></a>
+          </section>
+
+          <section class="contactItems padding">
+            <a href="https://github.com/dw0111" rel="noreferrer" target="_blank"
+              ><img class="images" src="images/github_icon.png" alt="GitHub"
+            /></a>
+          </section>
+
+          <section class="contactItems padding">
+            <a
+              href="https://codepen.io/dw20201211/"
+              rel="noreferrer"
+              target="_blank"
+              ><img class="images" src="images/codepen_icon.png" alt="codepen"
+            /></a>
+          </section>
+        </section>
       </section>
 
-      <section class="contactSection">
-        <h2 class="heading">Contact</h2>
-
-        <address class="contactItems padding">
-          <a href="mailto:daniel_wiesner@provider.de"
-            ><img class="images" src="images/email_icon.png" alt="eMail"
-          /></a>
-        </address>
-
-        <address class="contactItems padding">
-          <a href="tel:+49173123456"
-            ><img class="images" src="images/telephone_icon.png" alt="call"
-          /></a>
-        </address>
-
-        <section class="contactItems padding">
-          <a
-            href="https://www.linkedin.com/in/daniel-wiesner-0b100a201"
-            target="_blank"
-            ><img class="images" src="images/linkedin_icon.png" alt="LinkedIn"
-          /></a>
-        </section>
-
-        <section class="contactItems padding">
-          <a href="https://github.com/dw0111" target="_blank"
-            ><img class="images" src="images/github_icon.png" alt="GitHub"
-          /></a>
-        </section>
-
-        <section class="contactItems padding">
-          <a href="https://codepen.io/dw20201211/" target="_blank"
-            ><img class="images" src="images/codepen_icon.png" alt="codepen"
-          /></a>
-        </section>
-      </section>
-
-      <section class="cvSection">
+      <section class="cvSection padding">
         <h2 class="heading" id="cvHeading">CV</h2>
         <table>
-          <tr class="cvRow">
+          <tr class="cvRow padding">
             <td>2021</td>
             <td>Web Development bootcamp @ neuefische, Hamburg, Germany</td>
           </tr>
-          <tr class="cvRow">
+          <tr class="cvRow padding">
             <td>2018 - 2020</td>
             <td>
               Event Manager Germany @ Strong&nbsp;Viking&nbsp;Obstacle&nbsp;Run,
               Nijmegen, Netherlands
             </td>
           </tr>
-          <tr class="cvRow">
+          <tr class="cvRow padding">
             <td>2014 - 2020</td>
             <td>
               Bachelor's degree 'Multilingual&nbsp;communication' @
               Technische&nbsp;Hochschule&nbsp;Cologne, Germany
             </td>
           </tr>
-          <tr class="cvRow">
+          <tr class="cvRow padding">
             <td>2017</td>
             <td>
               Internship Event Marketing Manager @ Gauntlet&nbsp;Games, London,
               Great&nbsp;Britain
             </td>
           </tr>
-          <tr class="cvRow">
+          <tr class="cvRow padding">
             <td>2014 - 2017</td>
             <td>Translator NL &rArr; GER / ENG &rArr; GER @ Freelance</td>
           </tr>
         </table>
       </section>
 
-      <section>
+      <section class="padding">
         <h2 class="heading" id="bioHeading">Bio</h2>
         <p>
           In school I already had a love for all things computer. During my
@@ -124,10 +133,10 @@
         </p>
       </section>
 
-      <section id="skillsHeading">
+      <section class="padding" id="skillsHeading">
         <h2 class="heading">Skills</h2>
-        <ul class="skillsAndInterests">
-          <li class="skillsAndInterestsItems">HTML \& CSS</li>
+        <ul class="skillsAndInterests padding">
+          <li class="skillsAndInterestsItems">HTML &amp; CSS</li>
           <li class="skillsAndInterestsItems">MERN-Stack</li>
           <li class="skillsAndInterestsItems">German, native</li>
           <li class="skillsAndInterestsItems">Dutch, C2</li>
@@ -136,14 +145,14 @@
         </ul>
 
         <h2 class="heading">Interests</h2>
-        <ul class="skillsAndInterests">
+        <ul class="skillsAndInterests padding">
           <li class="skillsAndInterestsItems">Woodworking</li>
-          <li class="skillsAndInterestsItems">Fitness</li>
           <li class="skillsAndInterestsItems">Juggling</li>
+          <li class="skillsAndInterestsItems">Fitness</li>
         </ul>
       </section>
     </main>
 
-    <footer class="copyrightNotice">© 2021 Daniel Wiesner</footer>
+    <footer class="footer padding">© 2021 Daniel Wiesner</footer>
   </body>
 </html>

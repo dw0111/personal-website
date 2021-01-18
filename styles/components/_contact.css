@@ -1,21 +1,32 @@
 .contactSection {
   display: flex;
   flex-wrap: wrap;
-}
-
-.images {
-  max-width: 100%;
-  width: 40%;
-  height: auto;
+  justify-content: space-around;
+  grid-row-start: 2;
+  grid-column: 1 / span 2;
 }
 
 .contactItems {
   display: inline-block;
-  grid-column: 2;
-  max-width: 100%;
   border-radius: 50%;
+  width: 4em;
+  height: 4em;
   background-color: white;
-  justify-content: center;
+  filter: drop-shadow(0px 0px 1px darkgrey);
+}
+
+.contact-images {
+  justify-items: center;
   align-items: center;
-  filter: drop-shadow(10px 10px 5px white);
+  vertical-align: middle;
+}
+
+.images {
+  width: 2.5em;
+}
+
+@media (min-width: 800px) {
+  .contactSection {
+    grid-area: contact;
+  }
 }
