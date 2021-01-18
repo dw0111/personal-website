@@ -1,0 +1,21 @@
+.contactSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images {
+  max-width: 100%;
+  width: 40%;
+  height: auto;
+}
+
+.contactItems {
+  display: inline-block;
+  grid-column: 2;
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(10px 10px 5px white);
+}

@@ -1,0 +1,27 @@
+.opening {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imageOpeningSection {
+  grid-row: span 6;
+}
+
+.personalImage {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(15px 15px 5px white);
+}
+
+@media screen and (min-width: 550px) {
+  .openingSection {
+    max-width: 700px;
+    margin: 5px auto;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+  }
+}
