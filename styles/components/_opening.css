@@ -1,7 +1,7 @@
 .opening {
   display: grid;
   grid-template-columns: 4fr 3fr;
-  grid-area: 'picture opening__text' 'contact contact';
+  grid-template-rows: 1fr 1fr;
   column-gap: 5px;
   justify-content: center;
   align-items: center;
@@ -20,20 +20,13 @@
 }
 
 @media (min-width: 800px) {
-  .opening {
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      'picture opening__text'
-      'picture contact';
-  }
-
   .opening__image {
-    grid-area: picture;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
   }
 
   .opening__text {
-    grid-row: 1;
-    grid-column: 2;
-    grid-area: opening-text;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
   }
 }
