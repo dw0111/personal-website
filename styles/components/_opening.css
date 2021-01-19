@@ -1,9 +1,7 @@
 .opening {
   display: grid;
   grid-template-columns: 4fr 3fr;
-  grid-area:
-    "picture opening__text"
-    "contact contact"
+  grid-area: 'picture opening__text' 'contact contact';
   column-gap: 5px;
   justify-content: center;
   align-items: center;
@@ -34,6 +32,8 @@
   }
 
   .opening__text {
-    grid-area: opening-text | 1 / 2 / 1 / 2;
+    grid-row: 1;
+    grid-column: 2;
+    grid-area: opening-text;
   }
 }
