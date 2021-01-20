@@ -4,6 +4,8 @@
 @import 'components/_opening.css';
 @import 'components/_contact.css';
 @import 'components/_cv.css';
-@import 'components/_skillsAndInterests.css';
-@import 'components/footer.css';
+@import 'components/_interests.css';
+@import 'components/_skills.css';
+@import 'components/_footer.css';
+@import 'components/_bio.css';
 @import '_utility.css';

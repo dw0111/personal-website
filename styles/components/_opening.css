@@ -3,7 +3,7 @@
   grid-column: 1 / span 3;
   display: flex;
   column-gap: 5px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: start;
   padding: 40px 5px 0px;
@@ -11,22 +11,17 @@
 
 .opening__image {
   text-align: center;
+  background-color: white;
+  filter: drop-shadow(0px 0px 5px darkgrey);
+  border-radius: 10px;
 }
 
 .personalImage {
-  width: 100%;
-  max-width: 400px;
   filter: drop-shadow(0px 0px 5px darkgrey);
 }
 
-@media (min-width: 800px) {
-  .opening__image {
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 1;
-  }
-
-  .opening__text {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
-  }
+.opening__text {
+  background-color: white;
+  filter: drop-shadow(0px 0px 5px darkgrey);
+  border-radius: 10px;
 }
