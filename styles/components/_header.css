@@ -1,4 +1,6 @@
 .headerTop {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
   background-color: darkgrey;
   color: whitesmoke;
   filter: drop-shadow(0 1px 5px black);
