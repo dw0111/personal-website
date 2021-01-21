@@ -1,5 +1,5 @@
 @import '_base.css';
-@import 'styles/fonts/_fonts.css';
+@import 'fonts/_fonts.css';
 @import 'components/_header.css';
 @import 'components/_opening.css';
 @import 'components/_contact.css';
